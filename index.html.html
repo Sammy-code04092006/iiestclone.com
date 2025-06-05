@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIEST Clone</title>
+    <style>
+        *{
+            margin: 0cap;
+        }
+     .head{
+                color:#FFF;             
+                width: 1080x;
+                height: 0.75cm;
+                display: flex;
+                text-align: center;
+                align-items:center;
+                font-size: 0.875rem;
+                font-family:Roboto, sans-serif; ;
+                background: linear-gradient(to left,rgb(11, 164, 129),rgb(147, 195, 59));
+                margin-left: 3rem !important;
+                margin-right: 3rem !important;
+                 padding: 0px;
+            margin-left: auto ;
+            margin-right: auto;
+            }
+            .secline{
+                margin-top: 12px ;
+                margin-left: 180px;
+              
+            }
+            .line3{
+                margin-top: 12px;
+                margin-left: 250px;
+                 
+                
+            }
+            .line4{
+                 display: flex;
+                 gap:20px;
+            }
+            .line5{
+                margin-top: 70px;
+                margin: left 2px;; 
+                font-family: "Poppins", sans-serif;
+                display: flex !important;
+               align-items: center !important;
+            }
+            .line6{
+            line-height: 2;
+          
+
+                
+            }
+            .but{
+                background-color: #f1f1f1;
+                height:40px;
+                margin-top: 10px;
+                display: flex;
+              
+            }
+            .but1{
+                color: #ffffff;
+                padding: 15px;
+                  margin-left:300px;
+                background: linear-gradient(to left,rgb(11, 164, 129),rgb(147, 195, 59));
+                width:100px;
+                font-size: 20px;
+                border-radius: 6px;
+                 padding: 5px;
+            }
+            .line7{
+                margin: left 0px;
+                margin-top: 40px;
+                font-size: 20px;
+                font-weight: 200px;
+                font-family: "Poppins", sans-serif;
+                height:570px;
+               background-color:#f7f8f9 !important;
+               color: #4a4a4a;
+            
+
+            }
+            .line8{
+                display: flex;
+                text-align: center;
+                  background: linear-gradient(to left,rgb(11, 164, 129),rgb(147, 195, 59));
+                  margin-left: 750px;
+                   padding: 0.4rem 0.8rem;
+                letter-spacing: 0.5px;
+                    border-radius: 3px;
+                    border: 2px solid transparent;
+                    font-weight: 500;
+                        color: #ffffff;
+                        font-family: "Roboto", sans-serif; 
+
+            }
+            .linenew{
+                display:flex ;
+                margin-top: 60px;;
+                margin-left: 600px;
+            }
+            .line9.1{
+                 
+                margin-bottom: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #343a40;
+
+}
+.boxes{
+    display:flex;
+     overflow: scroll;
+     margin-left:50px;
+     margin-right: 50px;
+      overflow:scroll;
+}
+.box{
+    padding:20px;
+    margin: 20px;
+    height: 350px;
+    width: 400px;
+    background-color: #e3e0e0;
+    font-size: 16x;
+    color: #565252;
+    }
+    .box img{
+        width:380px;
+        height: 200px;;
+    }
+    .box p{
+        font-size:19px;
+        color: #000000;
+       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    .pics{
+        margin-left: 400px;
+        margin-right:400px;
+        display: flex;
+        overflow: scroll;
+    }
+    .pic img{
+        margin:10px;
+        padding: 5px;
+        width:700px;
+        height:500px;
+    }
+    .stat{
+        overflow: scroll;
+        display: flex;
+         margin-top: 10px;
+        margin-left:200px;
+        margin-right:200px;
+           width:900px;
+        height:50px;
+         color: #254f32;
+        font-size: 18px;
+    }
+            
+               
+                           
+            
+
+            
+           
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head">
+            &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+             Old Website &nbsp; &nbsp; 
+            NIRF &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; हिंदी में &nbsp;&nbsp;&nbsp;
+            Why IIEST,Shibpur? &nbsp;&nbsp;&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+             Admission <select name="Admission">
+    <option value="B.Tech"> B.Tech</option>
+    <option value="B.Arc">B.Arc </option>
+    <option value="B.Tech-M.Tech" > B.Tech-M.Tech </option>
+     <option value="M.Tech"> M.Tech </option>
+    <option value="M.Sc." M.Sc.> M.Sc.</option>
+    <option value="MBA"> MBA</option>
+    <option value="M.O.P"> M.O.P</option>
+    <option value="PHD">PHD </option>
+    <option value="Admission Notices" > Admission Notices</option>
+</select> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            Press Release &nbsp; &nbsp;
+            Alumini Portal
+            </div>
+     </header>
+
+         <div class="secline">
+            <img src="iiest logo1.png"width="18%">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;
+         <img style="text-align: right;" src="iiest logo2.png" width="36%">
+        </div>
+        <div class="line3">
+            Home
+           <label for="Institute">Institute </label>
+    <select name="Institute">
+    <option value="About IIEST,Shibpur"> About IIEST,Shibpur</option>
+    <option value="Statuatory Bodies">Statuatory Bodies </option>
+    <option value="Administration" > Administration </option>
+     <option value="Central Facilities">Central Facilities </option>
+    <option value="Pledge">Pledge</option>
+    <option value="BOG and FC resolutions">BOG FC resolutions </option>
+    </select>
+
+            Academic <select name="Academic">
+    <option value="Programmes"> Programmes</option>
+    <option value="Admission">Admission </option>
+    <option value="Departments" >Departments </option>
+     <option value="Schools">Schools </option>
+    <option value="Centres">Centres</option>
+        <option value="Cells">Cells</option>
+        </select>
+
+            Research <select name="Research">
+    <option value="Research Hightlights">Research Hightlights</option>
+    <option value="Major Research Areas">Major Research Areas </option>
+    <option value="Innovation" >Innovation </option>
+     <option value="IRP Cell">IRP Cell </option>
+    <option value="Research & Consultancy Cell">Research & Consultancy Cell</option>
+        <option value="Research Facilities">Research Facilities</option>
+         <option value="Publications">Publications</option>
+         <option value="Projects">Projects</option>
+         <option value="Patents">Patents</option>
+         </select>
+            Student
+            <select name="Student">
+    <option value="Achievements">Achievements</option>
+    <option value="Training & Placement">Training & Placement</option>
+    <option value="Prospective Students" >Prospective Students</option>
+     <option value="Students Senate">Students Senate</option>
+    <option value="Life @ IIEST,Shibpur">Life @ IIEST,Shibpur"</option>
+        <option value="Facilities">Facilities</option>
+         <option value="Anti Ragging">Anti Ragging</option>
+         <option value="Annual Sports Magazine">Annual Sports Magazine</option>
+         <option value="Central Repository">Central Repository</option>
+         <option value="E-Sahayak">E-Sahayak</option>
+         <option value="FAQs">FAQs</option>
+         <option value="Central Repository Login">Central Repository Login</option>
+         </select>
+            Faculty <select name="Faculty">
+            <option value="Achievements">Achievements </option>
+    <option value="Faculty Directory">Faculty Directory </option>
+    <option value="Visiting/Contractual Faculty" >Visiting/Contractual Faculty </option>
+     <option value="Email Directory">Email Directory</option>
+    <option value="Services">Services</option>
+        <option value="Cells">Cells</option>
+        </select>
+
+            Industry <select name="Industry">
+    <option value="Training &">Research Hightlights</option>
+    <option value="Major Research Areas">Major Research Areas </option>
+    <option value="Innovation" >Innovation </option>
+     <option value="IRP Cell">IRP Cell </option>
+    <option value="Research & Consultancy Cell">Research & Consultancy Cell</option>
+        <option value="Research Facilities">Research Facilities</option>
+         <option value="Publications">Publications</option>
+         <option value="Projects">Projects</option>
+         <option value="Patents">Patents</option>
+         </select>
+
+            Quick Links
+            Digital Edu.
+            Notifications <select name="Notifications">
+            <option value="Faculty/Staff">Faculty/Staff</option>
+    <option value="Admission">Admission</option>
+    <option value="Employment" >Employment</option>
+     <option value="Student">Student</option>
+    <option value="Tenders">Tenders</option>
+        <option value="General">General</option>
+         <option value="Finance">Finance</option>
+    <option value="CMS">CMS</option>
+        <option value="Placement">Placement</option>
+        </select>
+        </div>
+<div class="pics">
+    <div class="pic"><img src="clean campus.jpg"></div>
+    <div class="pic"><img src="img2.jpg"></div>
+    <div class="pic"><img src="banner1.jpeg"></div>
+    <div class="pic"><img src="banner2.jpeg"></div>
+    <div class="pic"><img src="banner3.jpeg"></div>
+     <div class="pic"><img src="Screenshot (9).png"></div>
+          <div class="pic"><img src="Screenshot (7).png"></div>
+               <div class="pic"><img src="Screenshot (12).png"></div>
+                    <div class="pic"><img src="Screenshot (11).png"></div>
+                                        <div class="pic"><img src="Screenshot (10).png"></div>
+
+     
+
+     
+
+</div>
+<div class="stat">
+    Applications through online mode are invited from the Indian Nationals for Direct recruitment to the post of Superintending Engineer 
+    Curbing the menace of ragging in Higher Educational Institutions
+    List of selected candidates for admission to MBA program 2025– 2027. Applications are invited for admission to the PhD programme (July Cycle, 2025) of the Institute through online mode in all disciplines of Engineering & Technology, Science, Architecture, Town & Regional Planning, and Humanities & Social Sciences
+    Admission to Post Graduate Courses (M.Tech./ M.Plan.) with scholarship for the Academic Session 2025-26 through CCMT-2025 (Centralized Counseling for M.Tech./M.Plan. Admissions)
+</div>
+  
+        <div class="line5" style="display: flex;">
+            <div style=" margin-left: 150px"></div>
+  <div style="width: 400px; align-items: center; font-size: calc(1.25625rem + 0.075vw); height: 60px;text-align: center; border-radius:4px;color: #FFF;background: linear-gradient(to left,rgb(11, 164, 129),rgb(147, 195, 59)); margin: 5px;">News</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div style="width: 400px; height: 60px;font-size: calc(1.25625rem + 0.075vw);text-align: center;border-radius:4px;color: #FFF;background: linear-gradient(to left,rgb(11, 164, 129),rgb(147, 195, 59)); margin: 5px;">Achievements</div>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div style="width: 400px; height: 60px;text-align: center;border-radius:4px;font-size: calc(1.25625rem + 0.075vw);color: #FFF; background:linear-gradient(to left,rgb(11, 164, 129),rgb(147, 195, 59)); margin: 5px;">Hapennings @ IIEST,Shibpur</div>
+</div>
+<div class="line6" style="display: flex;">
+            <div style=" margin-left: 150px"></div>
+  <div style="width: 400px;  border:1px solid grey; font-size:18px; height: 470px; border-radius:4px;color: #000000; margin: 5px;overflow:scroll;"> <ul>
+             <li> Alumnus pledges 8.6 cr to set up water research centre at Institute campus 08/01/2025 <li>DECLARATION CEREMONY OF TWO MULTI-DISCIPLINARY RESEARCH CENTERS 30/03/2025</li>
+ <li>EVENT REPORT OF DECLARATION CEREMONY OF TWO MULTI-DISCIPLINARY RESEARCH CENTERS 30/03/2025</li>
+
+ <li> Live Telecast of Hon’ble Prime Ministers Speech on 12th January, National Youth Festival Inauguration & Organization of Special events on 12th January, 2024 to celebrate the National Youth Day 10/01/2025</li>
+ <li>Professor Shrabani Saha, Professor of Development Economics delivered an invited talk titled "Tax Regimes and Quality of Governance: AnEmpirical Study Across Developed and Developing Nations" 08/01/2025</li>
+ <li>Inauguration of IIEST– A PLATE BANK held on 28.05.2025  29/05/2025</li>
+ <li>Log on to "UGC e-Samadhan" Portal link on HEI's website for addressing various grievances and concerns related to Higher Education Institutions 23/05/2025.</li>
+<li> DECLARATION CEREMONY OF TWO MULTI-DISCIPLINARY RESEARCH CENTERS 30/03/2025
+
+ 
+</ul>
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div style="width: 400px; border:1px solid grey; height: 470px;font-size:18px;border-radius:4px;color: #000000; overflow: scroll; margin: 5px;">        <ul>
+            <li>12 Faculty Members of IIEST, Shibpur have found a place in Elsevier Top 2% Researchers from India in 2024</li>
+<li>Congratulations Sri Saikat Barman of VLSI Design Branch for the coveted achievement to participate in the 'Phase 3 of Indo-Taiwan Collaborative Workforce Development Program'.</li>
+ <li>IIEST, Shibpur congratulates Ms. Gayatri Banerjee of Geo-informatics section in Mining Engineering Dept. on having been shortlisted for India’s first “National Geospatial Research Fellowship (NGRF)” (Edition 1)!</li>
+        </ul></div>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div style="width: 400px; border:1px solid grey; height: 470px;border-radius:4px;font-size: 18px;color: #000000; overflow: scroll; margin: 5px;">
+    <ul>
+        <li> The National Graduate Physics Examination (NGPE) will be hosted by the Department of Physics during 7th and 8th of June 2025  03/06/2025</li>
+        <li> Inauguration ceremony of IIEST - A Plate Bank at Institute Campus at 04:30 PM on 28.05.2025  27/05/2025</li>
+        <li> SIGNING OF MEMORANDUM OF AGREEMENT FOR THE CHIRASREE CENTRE FOR SUSTAINABLE INFRASTRUCTURE DEVELOPMENT (CCSID) 15/05/2025</li>
+        <li>The 164th birth anniversary of Kabiguru Rabindranath Tagore will be celebrated in the institute campus on 9th May, 2025, from 10.30 am to 11.30 am in the precincts adjoining the statue of Rabindranath Tagore. 08/05/2025</li>
+        <li> NIRMAAN - Quarterly News letter of Civil Engineering Dept. Second Edition (Nov 2024 to March 2025) 02/05/2025</li>
+        <li>TechMed- A biannual Newsletter (October 2024-March 2025) by CHST 01/05/2025</li>
+        <li> ME Department is going to host the 3rd International Conference on 'Energy Resources & Technologies for Sustainable Development' (ICERTSD), during 11-12 Sept 2025. 22/04/2025</li>
+        <li>Semi-conductor Fabrication & Characterization Training for Students from Tribal Community (Dt. 11.04.2025) 15/04/2025</li>
+    </ul>
+  </div>
+</div>
+<div class="but">
+    <div class="but1">
+<a href="https://www.iiests.ac.in/IIEST/NewsUpdates">Know More</a>
+</div>
+<div class="but1">
+<a href="https://www.iiests.ac.in/IIEST/Achievements/?type=Institute">Know More</a>
+</div>
+<div class="but1">
+    <a href="https://www.iiests.ac.in/IIEST/Happenings">Know More</a>
+</div>
+</div>
+
+<div class="line7">
+ <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Highlights</h1>
+<div class="boxes">
+    <div class="box"> <img src="dr.ananya.png">By Dr. Ananya Barui
+        <p> Fabrication of Honey-based Biodegradable Scaffold for Ex-vivo Expansion of Mesenchymal Stem Cells</p>
+    </div>
+    <div class="box"><img src="prof.chit.png">By Dr.Chitrangada Das Mukhopadhyay<p>       
+
+AIE-active non-conjugated poly (Nvinylcaprolactam) as a fluorescent thermometer for intracellular temperature imaging</p></div>
+    <div class="box"><img src="prof.chit2.jpg">By Dr.Chitrangada Das Mukhopadhyay<p>Development of therapeutics to treat neurodegenerative diseases</p></div>
+    <div class="box"><img src="prf.deba.png">By Dr. Debabani Ganguly<p>Interactions of Intrinsically Disordered proteins: A Physics-based Approach</p></div>
+   <div class="box"><img src="prof.manas.png">By Dr. Manas Roy<p>Graphene and its composite as solar sponge for water- splitting
+</p></div>
+    <div class="box"><img src="prof.sudipta.png">
+By Dr. Sudipta Mukhopadhyay <P>Development of suitable slime waste management systems for sustainable iron mining in India</P></div>
+        <div class="box"><img src="prof.tapan.png">By Prof. Tapan Kumar Kar<p>Transmission Dynamics and Spread of Infectious diseases: Modelling, Prediction and control.</p></div>
+    </div>
+    <button class="line8">View All</button>
+   </div>
+</div>
+<div class="linenew">
+    <div class="line9.1">
+    <h2>Visitors Count:</h2></div>
+    <div class="line9.2">
+        <h1>00468355</h1>
+    </div>
+</div>
+       
+    
+</body>
+</html>
